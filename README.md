@@ -23,7 +23,7 @@ Takes a patient's symptoms in plain language and returns likely diagnoses, sugge
 
 `PyTorch` `FAISS` `Azure OpenAI` `FastAPI` `Python`
 
-#### [Nvidia Stock Price Model Comparison](https://github.com/YOUR_USERNAME/REPO_NAME)
+#### [Nvidia Stock Price Model Comparison](https://github.com/nitin-nn1/CSML-2024-FInal-Project)
 Compares a linear regression and a univariate LSTM for forecasting Nvidia's daily closing price on 2023 to 2024 data.
 
 - Full data prep: cleaning, MinMax scaling, 80/20 split, and 3-day sliding windows
