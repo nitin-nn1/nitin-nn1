@@ -32,6 +32,9 @@ Compares a linear regression and a univariate LSTM for forecasting Nvidia's dail
 
 `Python` `Keras` `scikit-learn` `NumPy`
 
+<!-- PROJECTS:START -->
+<!-- PROJECTS:END -->
+
 ---
 
 ### Tools used across these projects
