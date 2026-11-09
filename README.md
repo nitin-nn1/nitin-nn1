@@ -13,7 +13,7 @@
 
 ### Featured projects
 
-#### [Hybrid AI Prescription Recommender](https://github.com/YOUR_USERNAME/REPO_NAME)
+#### [Hybrid AI Prescription Recommender]([https://github.com/YOUR_USERNAME/REPO_NAME](https://github.com/nitin-nn1/AI-In-HealthCare-HighRisk-Project))
 Takes a patient's symptoms in plain language and returns likely diagnoses, suggested prescriptions, and the reasoning behind them.
 
 - Combines a PyTorch neural network classifier, FAISS semantic search over past cases, and Azure OpenAI
