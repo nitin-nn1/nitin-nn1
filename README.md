@@ -1,3 +1,4 @@
+
 <h1 align="center">Hi, I'm Nitin Nagavel</h1>
 <p align="center">
   M.S. in Artificial Intelligence student at UT Austin.<br>
@@ -16,12 +17,12 @@
 #### [Hybrid AI Prescription Recommender](https://github.com/nitin-nn1/AI-In-HealthCare-HighRisk-Project)
 Takes a patient's symptoms in plain language and returns likely diagnoses, suggested prescriptions, and the reasoning behind them.
 
-- Combines a PyTorch neural network classifier, FAISS semantic search over past cases, and Azure OpenAI
+- Combines a PyTorch MLP classifier (384-dim MiniLM embeddings through 256- and 128-unit hidden layers), FAISS semantic search over past cases, and Azure OpenAI's GPT-5-mini
 - Merges two mismatched healthcare datasets (348 patient records, 14,683 disease-to-drug mappings) using string matching, reaching a 92% match rate and 320 clean cases across 96 conditions
 - Grounds the LLM with retrieved cases and classifier confidence scores to reduce made-up answers
-- FastAPI backend with four fallback modes so the app keeps running if a component fails
+- FastAPI backend paired with a React 18 frontend, running across four operating modes from full hybrid down to LLM-only if a component fails
 
-`PyTorch` `FAISS` `Azure OpenAI` `FastAPI` `Python`
+`PyTorch` `FAISS` `Azure OpenAI` `FastAPI` `React` `Python`
 
 #### [Nvidia Stock Price Model Comparison](https://github.com/nitin-nn1/CSML-2024-FInal-Project)
 Compares a linear regression and a univariate LSTM for forecasting Nvidia's daily closing price on 2023 to 2024 data.
@@ -39,12 +40,15 @@ Compares a linear regression and a univariate LSTM for forecasting Nvidia's dail
 
 ### Tools used across these projects
 
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="36" height="36"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="36" height="36"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="36" height="36"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" width="36" height="36"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" width="36" height="36"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" alt="scikit-learn" width="36" height="36"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="36" height="36"/>
-</p>
+<table>
+  <tr>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36"/><br>Python</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="36" height="36"/><br>PyTorch</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="36" height="36"/><br>FastAPI</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="36" height="36"/><br>React</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="36" height="36"/><br>Azure</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="36" height="36"/><br>NumPy</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="36" height="36"/><br>scikit-learn</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" height="36"/><br>Git</td>
+  </tr>
+</table>
